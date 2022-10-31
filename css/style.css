@@ -1,0 +1,248 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v30-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+/* header start */
+.wrapper {
+  margin: 0 auto;
+  max-width: 1320px;
+  border-bottom: 1px solid #bdbdbd;
+  margin-bottom: 55px;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  background-color: black;
+}
+.header_title {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  padding-top: 16px;
+}
+.header_nav {
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 96px;
+  position: absolute;
+  top: 50px;
+  padding: 40px 0;
+  align-items: center;
+}
+.header_items_left {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header_items_right {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header_logo {
+}
+.header_link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 60px;
+}
+/* header end */
+
+/* Alcohol start */
+.alcohol {
+  display: flex;
+  flex-wrap: wrap;
+  height: 800px;
+  width: 100%;
+  z-index: 1;
+  background-color: #996b60;
+  margin-bottom: 55px;
+}
+.alcohol_pic {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+}
+.alcohol_text {
+  height: 100%;
+  width: 50%;
+  padding: 277px 60px 0px 60px;
+}
+.alcohol_title {
+  font-family: "Liberation Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 73px;
+  line-height: 96px;
+  color: #ffffff;
+  margin-bottom: 34px;
+}
+.alcohol_subscribe {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-bottom: 46px;
+}
+.alcohol_button {
+  border: 1px solid #ffffff;
+  width: 180px;
+  height: 52px;
+  text-align: center;
+  padding: 17px;
+}
+.alcohol_button_link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+/* Alcohol end */
+
+/* About_eat start  */
+
+.about_eat {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about_eat_card {
+  width: 330px;
+  margin: 0px 15px 40px 15px;
+}
+
+.about_eat_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 36px;
+}
+/* About_eat end  */
+
+/* production start */
+.production {
+}
+.production_title {
+  margin: 0 auto;
+  width: 673px;
+  text-align: center;
+  font-family: "Liberation Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  padding-bottom: 24px;
+}
+.production_stick {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 83px;
+}
+.production_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.production_card {
+  position: relative;
+  width: 382px;
+  height: 665px;
+  margin-bottom: 141px;
+  padding: 0px 15px;
+}
+.production_card_title {
+  font-family: "Liberation Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.production_card_subscribe {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 27px;
+}
+.production_button {
+  position: absolute;
+  bottom: 0;
+  margin: 0 101px;
+  align-items: center;
+  width: 180px;
+  height: 52px;
+  background-color: #000000;
+  text-align: center;
+  padding: 18px 49px;
+}
+.production_card_link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+.production_card_link:focus,
+.production_card_link:active,
+.production_card_link:hover {
+  color: #ffffffc4;
+}
+
+/* production end*/
